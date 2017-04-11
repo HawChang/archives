@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1432004248 source:f:\编程文件\数据库\lab2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1384609732 c:\program files\mysql\mysql server 5.7\include\mysql.h
+	<sys/types.h>
+	<winsock2.h>
+	"mysql_version.h"
+	"mysql_com.h"
+	"mysql_time.h"
+	"my_list.h"
+	"mysql/client_plugin.h"
+	"typelib.h"
+	"my_alloc.h"
+
+1384611846 c:\program files\mysql\mysql server 5.7\include\mysql_version.h
+
+1384609732 c:\program files\mysql\mysql server 5.7\include\mysql_com.h
+
+1384609732 c:\program files\mysql\mysql server 5.7\include\mysql_time.h
+
+1384609732 c:\program files\mysql\mysql server 5.7\include\my_list.h
+
+1384609732 c:\program files\mysql\mysql server 5.7\include\mysql\client_plugin.h
+	<stdarg.h>
+	<stdlib.h>
+	<mysql/plugin_auth_common.h>
+
+1384609732 c:\program files\mysql\mysql server 5.7\include\mysql\plugin_auth_common.h
+	<windows.h>
+
+1384609732 c:\program files\mysql\mysql server 5.7\include\typelib.h
+	"my_alloc.h"
+
+1384609732 c:\program files\mysql\mysql server 5.7\include\my_alloc.h
+	<mysql/psi/psi_memory.h>
+
+1384609732 c:\program files\mysql\mysql server 5.7\include\mysql\psi\psi_memory.h
+	"psi_base.h"
+
+1384609732 c:\program files\mysql\mysql server 5.7\include\mysql\psi\psi_base.h
+

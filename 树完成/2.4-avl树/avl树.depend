@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1396024839 source:e:\学习\大二下\数据结构应用\avl树\main.cpp
+	<iostream>
+	"avlTree.h"
+
+1396024693 e:\学习\大二下\数据结构应用\avl树\avltree.h
+	<iostream>
+
+1396147993 source:h:\数据结构\数据结构应用\树\2-avl树\main.cpp
+	<iostream>
+	"avlTree.h"
+
+1396148029 h:\数据结构\数据结构应用\树\2-avl树\avltree.h
+	<iostream>
+
+1396148321 source:h:\数据结构\数据结构应用\树完成\2.4-avl树\main.cpp
+	<iostream>
+	<windows.h>
+	"avlTree.h"
+
+1396148029 h:\数据结构\数据结构应用\树完成\2.4-avl树\avltree.h
+	<iostream>
+

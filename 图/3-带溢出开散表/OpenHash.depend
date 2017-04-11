@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1397130576 source:e:\学习\软设1\code1\openhash\main.cpp
+	<iostream>
+	<windows.h>
+	"isprime.h"
+
+1397130157 e:\学习\软设1\code1\openhash\isprime.h
+	<math.h>
+	<iostream>
+
+1397131010 source:h:\数据结构应用\图\3-带溢出开散表\main.cpp
+	<iostream>
+	<windows.h>
+	"openhash.h"
+
+1397374654 h:\数据结构应用\图\3-带溢出开散表\openhash.h
+	<math.h>
+	<iostream>
+
+1397131010 source:e:\学习\数据结构\数据结构应用\图\3-带溢出开散表\main.cpp
+	<iostream>
+	<windows.h>
+	"openhash.h"
+
+1397374654 e:\学习\数据结构\数据结构应用\图\3-带溢出开散表\openhash.h
+	<math.h>
+	<iostream>
+

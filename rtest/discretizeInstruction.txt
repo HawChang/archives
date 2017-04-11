@@ -1,0 +1,6 @@
+Confirm the data's information, or you can change it in two ways.
+-1. A="(int|num|factor|attr1<attr2<...)": you can simply change the data by define its type.
+-2. A$method="(cluster|frequency|fixed)": you must select the method, categories has default value, but you can define its categories at the same time, too.
+    A$categories="": define how much categories you want to seperate. As for method "fixed", you must input a vector, such as c(-Inf,2,5.2,8,+Inf).
+
+	

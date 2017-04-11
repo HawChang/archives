@@ -1,0 +1,81 @@
+program -> program'
+program' -> type_specifier ID ( parameter_list ) compund_stmt program'
+program' -> $
+type_specifier -> int
+type_specifier -> char
+type_specifier -> float
+type_specifier -> double
+type_specifier -> void
+parameter_list -> type_specifier para parameter_list'
+parameter_list -> $
+parameter_list' -> , type_specifier para parameter_list'
+parameter_list' -> $
+para -> ID para'
+para' -> $
+para' -> [ ]
+compund_stmt -> { compund_stmt'
+compund_stmt' -> sentences }
+compund_stmt' -> }
+sentences -> declaration sentences'
+sentences -> statement sentences'
+sentences' -> declaration sentences'
+sentences' -> statement sentences'
+sentences' -> $
+declaration -> type_specifier init_declare declaration' ;
+declaration' -> , init_declare declaration'
+declaration' -> $
+init_declare -> ID init_declare'' init_declare'
+init_declare'' -> [ INTEGER ] init_declare''
+init_declare'' -> $
+init_declare' -> = polynomial
+init_declare' -> $
+statement -> assigment_expression ;
+statement -> compund_stmt
+statement -> judge_statement
+statement -> iteration_statement
+statement -> jump_statement
+assigment_expression -> $
+assigment_expression -> ID assigment_expression' assigment_expression''
+assigment_expression' -> [ INTEGER ] assigment_expression'
+assigment_expression' -> $
+assigment_expression'' -> = polynomial
+assigment_expression'' -> ( call_parameter_list )
+polynomial -> fraction_expression' polynomial'
+polynomial' -> + fraction_expression' polynomial'
+polynomial' -> - fraction_expression' polynomial'
+fraction_expression' -> fraction_expression fraction_expression''
+fraction_expression'' -> / fraction_expression fraction_expression''
+fraction_expression'' -> * fraction_expression fraction_expression''
+fraction_expression'' -> % fraction_expression fraction_expression''
+fraction_expression'' -> $
+fraction_expression -> ID fraction_expression''' fraction_expression''''
+fraction_expression''' -> [ INTEGER ] assigment_expression'''
+fraction_expression''' -> $
+fraction_expression'''' -> ( call_parameter_list )
+fraction_expression'''' -> $
+fraction_expression -> INTEGER
+fraction_expression -> FLOAT
+fraction_expression -> ( polynomial )
+polynomial' -> $
+judge_statement -> if ( judge_expression ) compund_stmt judge_statement'
+judge_statement' -> $
+judge_statement' -> else compund_stmt
+judge_expression -> polynomial judge_expression'
+judge_expression' -> < judge_expression''
+judge_expression' -> > judge_expression''
+judge_expression' -> <= judge_expression''
+judge_expression' -> >= judge_expression''
+judge_expression' -> == judge_expression''
+judge_expression' -> != judge_expression''
+judge_expression'' -> polynomial
+iteration_statement -> while ( judge_expression ) compund_stmt
+iteration_statement -> for ( assigment_expression ; judge_expression ; assigment_expression )
+jump_statement -> return jump_statement' ;
+jump_statement' -> polynomial
+jump_statement' -> $
+jump_statement -> continue ;
+jump_statement -> break ;
+call_parameter_list -> $
+call_parameter_list -> fraction_expression call_parameter_list'
+call_parameter_list' -> , fraction_expression call_parameter_list'
+call_parameter_list' -> $

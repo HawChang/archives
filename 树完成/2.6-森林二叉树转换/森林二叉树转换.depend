@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1396113676 source:e:\学习\大二下\数据结构应用\树\森林二叉树转换\main.cpp
+	<iostream>
+	<windows.h>
+	"tree_to_btree.h"
+
+1396113548 e:\学习\大二下\数据结构应用\树\森林二叉树转换\tree_to_btree.h
+
+1396113791 source:h:\数据结构\数据结构应用\树\2-森林二叉树转换\main.cpp
+	<iostream>
+	<windows.h>
+	"tree_to_btree.h"
+
+1396113548 h:\数据结构\数据结构应用\树\2-森林二叉树转换\tree_to_btree.h
+
+1396149009 source:h:\数据结构\数据结构应用\树完成\2-森林二叉树转换\main.cpp
+	<iostream>
+	<windows.h>
+	"tree_to_btree.h"
+
+1396113548 h:\数据结构\数据结构应用\树完成\2-森林二叉树转换\tree_to_btree.h
+
+1396149009 source:h:\数据结构\数据结构应用\树完成\2.6-森林二叉树转换\main.cpp
+	<iostream>
+	<windows.h>
+	"tree_to_btree.h"
+
+1396113548 h:\数据结构\数据结构应用\树完成\2.6-森林二叉树转换\tree_to_btree.h
+
+1396149010 source:e:\学习\数据结构\数据结构应用\树完成\2.6-森林二叉树转换\main.cpp
+	<iostream>
+	<windows.h>
+	"tree_to_btree.h"
+
+1396113550 e:\学习\数据结构\数据结构应用\树完成\2.6-森林二叉树转换\tree_to_btree.h
+

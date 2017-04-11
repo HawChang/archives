@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1395548530 source:c:\users\administrator\desktop\数据结构应用\迷宫指针实现\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+

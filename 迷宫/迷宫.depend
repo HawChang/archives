@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1395541228 source:c:\users\administrator\desktop\数据结构应用\迷宫\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1395541228 source:h:\数据结构\数据结构应用\迷宫\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+

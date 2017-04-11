@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1397381478 source:h:\数据结构应用\排序\排序\main.cpp
+	<iostream>
+	"sort.h"
+
+1397382760 h:\数据结构应用\排序\排序\sort.h
+	<math.h>
+	<iostream>
+
+1397740207 source:e:\学习\数据结构\数据结构应用\排序\排序\main.cpp
+	<iostream>
+	"sort.h"
+
+1397746122 e:\学习\数据结构\数据结构应用\排序\排序\sort.h
+	<math.h>
+	<iostream>
+
+1397740207 source:e:\学习\数据结构\数据结构应用\排序完成\排序\main.cpp
+	<iostream>
+	"sort.h"
+
+1397746122 e:\学习\数据结构\数据结构应用\排序完成\排序\sort.h
+	<math.h>
+	<iostream>
+

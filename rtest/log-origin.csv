@@ -1,0 +1,16 @@
+V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,V12,V13,V14
+文件,离散属性数量,连续属性数量,目标属性类型,目标属性变化值数,样本数量,缺失值比例,算法选择,mlp,运行时间,glmnet,运行时间,decisionTree,运行时间
+C:/Users/Zh/Desktop/car.csv,7,0,Factor,4,1728,0,MLP,0.9884,,0.705,,0.8669,
+C:/Users/Zh/Desktop/data/auto-mpg.csv,0,8,num,127,398,0,decisionTree,-9.2722,14,-0.4437,1,-0.3474,1
+C:/Users/Zh/Desktop/data/imports-85.csv,10,16,int,145,205,0,decisionTree,-10784968.42,56,-401.9615,0,-326.8518,1
+C:/Users/Zh/Desktop/data/balance.csv,1,4,Factor,3,625,0,MLP,0.952,18,0.8705,10,0.7923,0
+C:/Users/Zh/Desktop/data/transfusion.csv,0,5,int,2,748,0,GLMNET,-0.1419,18,-0.0321,0,-0.0328,1
+C:/Users/Zh/Desktop/data/abalone.csv,1,8,int,28,4177,0,GLMNET,-4.2643,158.671,-0.0773,1.431,-0.0789,5.285
+C:/Users/Zh/Desktop/data/winequality-red.csv,0,12,int,6,1599,0,GLMNET,-0.4055,83.64,-0.0355,0.143,-0.0372,2.571
+C:/Users/Zh/Desktop/data/forestfires.csv,2,11,num,251,517,0,decisionTree,-599.6873,63.706,-11.0502,0.094,-8.4261,2.086
+C:/Users/Zh/Desktop/data/winequality-white.csv,0,12,int,7,4898,0,decisionTree,-0.5224,271.063,-0.0238,0.307,-0.0236,8.981
+C:/Users/Zh/Desktop/data/sleep.txt,0,10,int,5,62,0,MLP,-0.0669,4.084,-0.0869,0.109,-0.1991,1.951
+C:/Users/Zh/Desktop/data/iris.txt,1,4,Factor,3,150,0,decisionTree,1,5.88,0.9643,4.155,1,6
+F:/编程文件/JAVA类/rtest/banknote.csv,0,5,int,2,1372,0,GLMNET,-0.0116,35.673,-0.0114,0.114,-0.0142,1.05
+C:/Users/Zh/Desktop/data/wine.csv,0,14,int,3,178,0,decisionTree,-0.0268,13.438,-0.0443,0.105,-0.0082,1.473
+C:/Users/Zh/Desktop/data/car.csv,7,0,Factor,4,1728,0,MLP,0.974,150.496,0.7179,46.654,0.8673,8.319

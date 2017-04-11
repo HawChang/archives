@@ -1,0 +1,164 @@
+新增：
+target="Risk" trainFile="C:\Users\Zh\Desktop\data\surgery.csv" header="T" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+
+mlp时间太长没跑完：
+target="V10" trainFile="C:\Users\Zh\Desktop\data\yeast.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+
+新数据类型：logi
+target="Risk" trainFile="C:\Users\Zh\Desktop\data\surgery.csv" header="T" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+
+
+效果不错的数据集：
+
+
+target="Channel" trainFile="C:\Users\Zh\Desktop\data\customer.csv" header="T" object="predict" outputPDF="C:\Users\Zh\Desktop\predict.pdf"
+//预测：MLP 实际：MLP和random轮流最优 MLP时间可以接受
+target="V35" trainFile="C:\Users\Zh\Desktop\data\ionosphere.csv" header="F"  na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+//预测“randomForest 实际： randomForest最好 MLP时间太久 效果也比random稍差 glmnet效果偶尔比random稍差，偶尔差不多 
+target="V20" trainFile="C:\Users\Zh\Desktop\data\hepatitis.csv" header="F"  na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+//预测MLP 实际 MLP   不稳定 互相起伏大 MLP效果最好的时候较多
+target="V13" values="V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,V12" trainFile="C:\Users\Zh\Desktop\data\bridges.csv" header="F" na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+//预测GLMNET 实际 GLMNET  效果都不太好在0.8~0.5之间， GLMNET 相对好一点 一直在0.7~0.8左右
+
+
+效果较差的数据集
+target="V6" trainFile="C:\Users\Zh\Desktop\data\selfNoise.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+//预测 randomForest 实际 MLP    MLP>randomForest 但random效果也不差
+target="class" trainFile="C:\Users\Zh\Desktop\data\tree.test.csv" header="T" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+//预测GLMNET 实际MLP
+
+
+测试文件语句：
+target="V35" trainFile="C:\Users\Zh\Desktop\data\ionosphere.csv" header="F"  na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V20" trainFile="C:\Users\Zh\Desktop\data\hepatitis.csv" header="F"  na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V6" trainFile="C:\Users\Zh\Desktop\data\selfNoise.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V13" values="V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,V12" trainFile="C:\Users\Zh\Desktop\data\bridges.csv" header="F" na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="Rings" trainFile="C:\Users\Zh\Desktop\data\abalone.csv" header="T" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+
+
+
+新增测试效果差：
+target="V18" trainFile="C:\Users\Zh\Desktop\data\zoo.csv" header="F"  object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V10" trainFile="C:\Users\Zh\Desktop\data\tictactoe.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+
+
+
+目标:
+target="algorithm" values="symbolicProp,attrNum,targetType,targetValueNum,obsNum,missingValueProp,entropy,multiinformation,mutinformation" trainFile="C:\Users\Zh\Desktop\data\log.csv" header="T" testFile="C:\Users\Zh\Desktop\data\log.csv" outputTXT="C:\Users\Zh\Desktop\rules.txt"
+
+
+继续运行：
+target="V35" trainFile="C:\Users\Zh\Desktop\data\dermatology.csv" header="F"
+target="V1" values="V2,V3,V4,V5,V6,V7,V8,V9" trainFile="C:\Users\Zh\Desktop\data\dermatology.csv" header="F" na.strings="?"
+target="V8" values="V1,V2,V3,V4,V5,V6,V7" trainFile="C:\Users\Zh\Desktop\data\ecoli.csv" header="F"
+target="V7" values="V2,V3,V4,V5,V6,V8,V9,V10,V11,V12,V13,V14,V15,V16,V17,V18,V19,V20,V21,V22,V23,V24,V25,V26,V27,V28,V29,V30" trainFile="C:\Users\Zh\Desktop\data\flags.csv" header="F"
+target="V11" trainFile="C:\Users\Zh\Desktop\data\glass.csv" header="F"
+target="V6" values="V2,V3,V4,V5" trainFile="C:\Users\Zh\Desktop\data\hayes.csv" header="F"
+target="V14" trainFile="C:\Users\Zh\Desktop\data\housing.csv" header="F"
+target="V6" trainFile="C:\Users\Zh\Desktop\data\bupa.csv" header="F"
+
+
+
+
+
+
+运行情况 结果集：
+target="V7" values="V1,V2,V3,V4,V5,V6" trainFile="C:\Users\Zh\Desktop\data\log.csv" header="T"
+
+outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+
+全部测试语句：
+target="V16" trainFile="C:\Users\Zh\Desktop\data\credict.csv" header="F" na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="Species" trainFile="C:\Users\Zh\Desktop\data\iris.txt" header="T" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V8" trainFile="C:\Users\Zh\Desktop\data\diagnosis.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V15" trainFile="C:\Users\Zh\Desktop\data\adult.csv" header="F" na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V1" trainFile="C:\Users\Zh\Desktop\data\votes.csv" header="F"  na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V1" trainFile="C:\Users\Zh\Desktop\data\balance.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V91" trainFile="C:\Users\Zh\Desktop\data\libras.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V1" values="V2,V3,V4,V5,V6,V7,V8,V9,V10" trainFile="C:\Users\Zh\Desktop\data\echocardiogram.csv" header="F" na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V7" trainFile="C:\Users\Zh\Desktop\data\car.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V1" trainFile="C:\Users\Zh\Desktop\data\wine.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V5" trainFile="C:\Users\Zh\Desktop\data\banknote.csv" header="F"  object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="donatedBlood" trainFile="C:\Users\Zh\Desktop\data\transfusion.csv" header="T" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="Danger" trainFile="C:\Users\Zh\Desktop\data\sleep.txt" header="T"  object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V11" trainFile="C:\Users\Zh\Desktop\data\glass.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V40" trainFile="C:\Users\Zh\Desktop\data\bands.csv" header="F" na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V37" trainFile="C:\Users\Zh\Desktop\data\chess.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V26" trainFile="C:\Users\Zh\Desktop\data\imports-85.csv" header="F" na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V9" values="V1,V2,V3,V4,V5,V6,V7,V8" trainFile="C:\Users\Zh\Desktop\data\machine.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="Rings" trainFile="C:\Users\Zh\Desktop\data\abalone.csv" header="T" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V7" values="V2,V3,V4,V5,V6,V8,V9,V10,V11,V12,V13,V14,V15,V16,V17,V18,V19,V20,V21,V22,V23,V24,V25,V26,V27,V28,V29,V30" trainFile="C:\Users\Zh\Desktop\data\flags.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="quality" trainFile="C:\Users\Zh\Desktop\data\winequality-red.csv" header="T"  object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="quality" trainFile="C:\Users\Zh\Desktop\data\winequality-white.csv" header="T" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V35" trainFile="C:\Users\Zh\Desktop\data\dermatology.csv" header="F" na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="mpg" trainFile="C:\Users\Zh\Desktop\data\auto-mpg.csv" header="T" na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V8" values="V1,V2,V3,V4,V5,V6,V7" trainFile="C:\Users\Zh\Desktop\data\ecoli.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V35" trainFile="C:\Users\Zh\Desktop\data\ionosphere.csv" header="F"  na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V20" trainFile="C:\Users\Zh\Desktop\data\hepatitis.csv" header="F"  na.strings="?" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+target="V6" trainFile="C:\Users\Zh\Desktop\data\selfNoise.csv" header="F" object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"
+
+
+效果差的数据集：
+target="area" trainFile="C:\Users\Zh\Desktop\data\forestfires.csv" header="T"
+target="V55" trainFile="C:\Users\Zh\Desktop\data\covtype.csv" header="F"
+target="V7" values="V2,V3,V4,V5,V6,V8,V9,V10,V11,V12,V13,V14,V15,V16,V17,V18,V19,V20,V21,V22,V23,V24,V25,V26,V27,V28,V29,V30" trainFile="C:\Users\Zh\Desktop\data\flags.csv" header="F"
+
+效果一般的数据集：
+target="V9" values="V1,V2,V3,V4,V5,V6,V7,V8" trainFile="C:\Users\Zh\Desktop\data\machine.csv" header="F"
+target="Rings" trainFile="C:\Users\Zh\Desktop\data\abalone.csv" header="T"
+target="quality" trainFile="C:\Users\Zh\Desktop\data\winequality-red.csv" header="T" 
+target="quality" trainFile="C:\Users\Zh\Desktop\data\winequality-white.csv" header="T"
+target="donatedBlood" trainFile="C:\Users\Zh\Desktop\data\transfusion.csv" header="T"
+target="V91" trainFile="C:\Users\Zh\Desktop\data\libras.csv" header="F"
+target="V40" trainFile="C:\Users\Zh\Desktop\data\bands.csv" header="F" na.strings="?"
+
+效果好的数据集：
+target="V1" trainFile="C:\Users\Zh\Desktop\data\balance.csv" header="F"
+target="V37" trainFile="C:\Users\Zh\Desktop\data\chess.csv" header="F"
+target="V16" trainFile="C:\Users\Zh\Desktop\data\credict.csv" header="F" na.strings="?"
+target="Species" trainFile="C:\Users\Zh\Desktop\data\iris.txt" header="T"
+target="Danger" trainFile="C:\Users\Zh\Desktop\data\sleep.txt" header="T" 
+target="V5" trainFile="C:\Users\Zh\Desktop\data\banknote.csv" header="F" 
+target="V1" trainFile="C:\Users\Zh\Desktop\data\wine.csv" header="F"
+target="V7" trainFile="C:\Users\Zh\Desktop\data\car.csv" header="F"
+target="V26" trainFile="C:\Users\Zh\Desktop\data\imports-85.csv" header="F" na.strings="?"
+target="V15" trainFile="C:\Users\Zh\Desktop\data\adult.csv" header="F" na.strings="?"
+target="V8" trainFile="C:\Users\Zh\Desktop\data\diagnosis.csv" header="F"
+target="mpg" trainFile="C:\Users\Zh\Desktop\data\auto-mpg.csv" header="T" na.strings="?"
+target="V35" trainFile="C:\Users\Zh\Desktop\data\dermatology.csv" header="F"
+
+
+已运行（历史）：
+target="V1" trainFile="C:\Users\Zh\Desktop\data\balance.csv" header="F"
+target="V16" trainFile="C:\Users\Zh\Desktop\data\credict.csv" header="F" na.strings="?"
+target="Species" trainFile="C:\Users\Zh\Desktop\data\iris.txt" header="T"
+target="Danger" trainFile="C:\Users\Zh\Desktop\data\sleep.txt" header="T" 
+target="V1" trainFile="C:\Users\Zh\Desktop\data\wine.csv" header="F"
+target="V26" trainFile="C:\Users\Zh\Desktop\data\imports-85.csv" header="F" na.strings="?"
+target="V8" trainFile="C:\Users\Zh\Desktop\data\diagnosis.csv" header="F"
+target="mpg" trainFile="C:\Users\Zh\Desktop\data\auto-mpg.csv" header="T" na.strings="?"
+target="V35" trainFile="C:\Users\Zh\Desktop\data\dermatology.csv" header="F" na.strings="?"
+target="V9" values="V1,V2,V3,V4,V5,V6,V7,V8" trainFile="C:\Users\Zh\Desktop\data\machine.csv" header="F"
+target="donatedBlood" trainFile="C:\Users\Zh\Desktop\data\transfusion.csv" header="T"
+target="V91" trainFile="C:\Users\Zh\Desktop\data\libras.csv" header="F"
+target="V40" trainFile="C:\Users\Zh\Desktop\data\bands.csv" header="F" na.strings="?"
+target="V8" values="V1,V2,V3,V4,V5,V6,V7" trainFile="C:\Users\Zh\Desktop\data\ecoli.csv" header="F"
+target="V7" values="V2,V3,V4,V5,V6,V8,V9,V10,V11,V12,V13,V14,V15,V16,V17,V18,V19,V20,V21,V22,V23,V24,V25,V26,V27,V28,V29,V30" trainFile="C:\Users\Zh\Desktop\data\flags.csv" header="F"
+target="V11" trainFile="C:\Users\Zh\Desktop\data\glass.csv" header="F"
+target="V6" values="V2,V3,V4,V5" trainFile="C:\Users\Zh\Desktop\data\hayes.csv" header="F"
+target="V1" values="V2,V3,V4,V5,V6,V7,V8,V9,V10" trainFile="C:\Users\Zh\Desktop\data\echocardiogram.csv" header="F" na.strings="?"
+target="V5" trainFile="C:\Users\Zh\Desktop\data\banknote.csv" header="F" 
+target="quality" trainFile="C:\Users\Zh\Desktop\data\winequality-red.csv" header="T" 
+target="V7" trainFile="C:\Users\Zh\Desktop\data\car.csv" header="F"
+target="V37" trainFile="C:\Users\Zh\Desktop\data\chess.csv" header="F"
+target="Rings" trainFile="C:\Users\Zh\Desktop\data\abalone.csv" header="T"
+target="quality" trainFile="C:\Users\Zh\Desktop\data\winequality-white.csv" header="T"
+target="V15" trainFile="C:\Users\Zh\Desktop\data\adult.csv" header="F" na.strings="?"
+target="V55" trainFile="C:\Users\Zh\Desktop\data\covtype.csv" header="F"
+target="V6" trainFile="C:\Users\Zh\Desktop\data\selfNoise.csv" header="F"
+target="Class" trainFile="C:\Users\Zh\Desktop\data\breastTissue.csv" header="T"
+target="V1" trainFile="C:\Users\Zh\Desktop\data\votes.csv" header="F"  na.strings="?"
+target="V20" trainFile="C:\Users\Zh\Desktop\data\hepatitis.csv" header="F"  na.strings="?"
+target="V35" trainFile="C:\Users\Zh\Desktop\data\ionosphere.csv" header="F"  na.strings="?"
+target="motor_UPDRS" values="subject,age,sex,test_time,Jitter,Jitter.Abs.,Jitter.RAP,Jitter.PPQ5,Jitter.DDP,Shimmer,Shimmer.dB.,Shimmer.APQ3,Shimmer.APQ5,Shimmer.APQ11,Shimmer.DDA,NHR,HNR,RPDE,DFA,PPE" trainFile="C:\Users\Zh\Desktop\data\parkinsons.csv" header="T"  na.strings="?"
+

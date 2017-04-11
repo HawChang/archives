@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1398338017 source:e:\编程文件\trie_tree\main.cpp
+	<iostream>
+	<conio.h>
+	"trie_tree.h"
+
+1398572744 e:\编程文件\trie_tree\trie_tree.h
+	<string>
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<fstream>
+

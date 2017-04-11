@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1395843584 source:c:\users\administrator\desktop\数据结构应用\树的遍历\main.cpp
+	<iostream>
+
+1396088458 source:e:\学习\大二下\数据结构应用\2-树的遍历\main.cpp
+	<iostream>
+	<windows.h>
+
+1398830842 source:e:\学习\数据结构\数据结构应用\树完成\树的遍历（已在二叉树遍历里）\main.cpp
+	<iostream>
+	<windows.h>
+	"btree.h"
+
+1399295860 e:\学习\数据结构\数据结构应用\树完成\树的遍历（已在二叉树遍历里）\btree.h
+	<iostream>
+

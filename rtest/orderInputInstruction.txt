@@ -1,0 +1,17 @@
+                ¨X¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨j¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨[
+                ¨U    Input your order                                                                   ¨U  defaul  ¨U
+                ¨d¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨p¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨g
+                ¨c©¤ Your order must at least contain two attributes:                                     ¨U          ¨U
+                ¨U    1. object: analyzing type (predict/associate/rules).                               ¨U          ¨U
+                ¨U    2. trainFile: dataFile address.                                                    ¨U          ¨U
+                ¨c©¤ Following attributes are occasionally required:                                      ¨U          ¨U
+                ¨U   1. testFile: the address of the data to predict. ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨o©¤©¤ NULL ©¤©¤¨f
+                ¨U   2. values: attributes used for the analysis. ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨o©¤©¤ NULL ©¤©¤¨f
+                ¨U   3. sequential: T or F, T means data type is sequential. ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨o©¤©¤  F   ©¤©¤¨f
+                ¨U   4. header: T or F, T means the first row is the names of the columns. ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨o©¤©¤  T   ©¤©¤¨f
+                ¨U   5. na.strings: define the NA expression. ©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨o©¤©¤  NA  ©¤©¤¨f
+                ¨c©¤ Order should be put like this: (attributes)= "(values)"[, (attributes)="(values)"...]¨U          ¨U
+                ¨c©¤ Example: target="Risk" trainFile="C:\Users\Zh\Desktop\data\surgery.csv" header="T"   ¨U          ¨U
+                ¨U           object="predict" outputPDF="C:\Users\Zh\Desktop\rules.pdf"                  ¨U          ¨U
+                ¨c©¤ For more attributes' information, just input -help.                                  ¨U          ¨U
+                ¨^¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨m¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨a

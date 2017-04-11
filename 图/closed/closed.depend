@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1397373868 source:c:\users\acer\desktop\closed\main.cpp
+	<iostream>
+	<windows.h>
+	"closed.h"
+
+1397374188 c:\users\acer\desktop\closed\closed.h
+	<iostream>
+	<math.h>
+
+1397374280 source:h:\数据结构应用\图\closed\main.cpp
+	<iostream>
+	<windows.h>
+	"closed.h"
+
+1397374800 h:\数据结构应用\图\closed\closed.h
+	<iostream>
+	<math.h>
+
+1397374280 source:e:\学习\数据结构\数据结构应用\图\closed\main.cpp
+	<iostream>
+	<windows.h>
+	"closed.h"
+
+1397374800 e:\学习\数据结构\数据结构应用\图\closed\closed.h
+	<iostream>
+	<math.h>
+

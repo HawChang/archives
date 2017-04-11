@@ -1,0 +1,7 @@
+before read the data, you can set some parameters if you like. The parameter will be initialized as follows if you don't set
+header="T"            :means the first row of the data is the set of the names of each col
+sep=","               :means the separetion of each data is comma
+na.strings="NA,<NA>"  :means the expression of the null in this data
+set the parameters like this : header="T",sep=",",na.strings="NA,<NA>"
+
+

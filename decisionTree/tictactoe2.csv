@@ -1,0 +1,12 @@
+x,x,x,x,o,o,x,o,o,positive
+x,x,x,x,o,o,o,x,o,positive
+x,?,o,x,x,o,o,?,x,positive
+b,b,b,o,?,b,x,x,x,positive
+b,b,b,o,b,o,x,x,x,positive
+b,b,b,b,o,o,x,x,o,positive
+x,x,o,?,x,o,o,b,o,negative
+x,x,o,x,x,o,b,o,o,negative
+x,x,o,x,x,b,o,o,o,negative
+x,x,o,x,x,o,?,b,o,negative
+x,x,o,x,x,o,b,o,o,negative
+x,x,o,x,x,b,o,o,o,negative

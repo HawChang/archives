@@ -1,0 +1,26 @@
+                ¨X¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨[
+                ¨U   time sequence create details                                                       ¨U
+                ¨d¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨g
+                ¨c©¤ You can create time sequence in following ways                                      ¨U
+                ¨U    1.seq(from, to)                       2.seq(from, to, by= )                       ¨U
+                ¨U    3.seq(from, to, length.out= )         4.seq(length.out= )                         ¨U
+                ¨c©¤ attributes information:                                                             ¨U
+                ¨U    1. from: start time point, integer or Date type.                                  ¨U
+                ¨U    2. to: end time point, integer or Date type.                                      ¨U
+                ¨U    3. by: string, containing one of "sec", "min", "hour", "day", "DSTday", "week",   ¨U
+                ¨U           "month", "quarter" or "year". This can optionally be preceded by a         ¨U
+                ¨U           (positive or negative) integer and a space.                                ¨U
+                ¨U    4. length.out: control the length of the sequence.                                ¨U
+                ¨c©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨f
+                ¨c©¤ examples:                                                                           ¨U
+                ¨U    1.seq(as.POSIXct("2014-01-01"),as.POSIXct("2014-12-01"), length.out = 12)         ¨U
+                ¨U    2.seq(as.POSIXct("2014-01-01"),length.out=length(data),by="day")                  ¨U
+                ¨U    3.seq(length.out=length(data))                                                    ¨U
+                ¨c©¤ Date type examlples:   "yyyy-mm-dd HH:MM:SS"                                        ¨U
+                ¨U    1.2014-01-01                                                                      ¨U
+                ¨U    2.1995-11-22 23:30:00                                                             ¨U
+                ¨c©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨f
+                ¨c©¤ warning: the length of the time indexs must equal to the data's length.             ¨U
+                ¨c©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨f
+                ¨c©¤ Press ENTER to pass the time sequence creation step                                 ¨U
+                ¨^¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨a

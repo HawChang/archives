@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1364815556 source:c:\users\fantasy\desktop\openaddress\main.cpp
+	<iostream>
+	<cstdio>
+	"openAddress.h"
+
+1364815621 c:\users\fantasy\desktop\openaddress\openaddress.h
+	<iostream>
+
+1364815776 source:c:\users\fantasy\desktop\图\openaddress\main.cpp
+	<iostream>
+	<cstdio>
+	"openAddress.h"
+
+1364815672 c:\users\fantasy\desktop\图\openaddress\openaddress.h
+	<iostream>
+
+1364815776 source:c:\users\fantasy\desktop\hash表\openaddress\main.cpp
+	<iostream>
+	<cstdio>
+	"openAddress.h"
+
+1364815672 c:\users\fantasy\desktop\hash表\openaddress\openaddress.h
+	<iostream>
+
+1364815776 source:e:\学习\软设1\code1\1110320115 马家冀 软设1 基本数据结构及其应用\hashtable\openaddress\main.cpp
+	<iostream>
+	<cstdio>
+	"openAddress.h"
+
+1397056235 e:\学习\软设1\code1\1110320115 马家冀 软设1 基本数据结构及其应用\hashtable\openaddress\openaddress.h
+	<iostream>
+

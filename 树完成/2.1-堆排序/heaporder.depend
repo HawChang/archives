@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1394955883 source:e:\学习\大二下\数据结构应用\2-堆排序\main.cpp
+	<iostream>
+
+1396018784 source:h:\数据结构\数据结构应用\树\2-堆排序\main.cpp
+	<iostream>
+
+1396146125 source:h:\数据结构\数据结构应用\树完成\2.1-堆排序\main.cpp
+	<iostream>
+	"heaporder.h"
+
+1396146106 h:\数据结构\数据结构应用\树完成\2.1-堆排序\heaporder.h
+

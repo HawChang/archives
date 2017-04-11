@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1395555851 source:c:\users\acer\desktop\least_path_create\main.cpp
+	<iostream>
+	"least_path_create.h"
+
+1395555864 c:\users\acer\desktop\least_path_create\least_path_create.h
+
+1395564692 source:h:\数据结构\数据结构应用\least_tree_create\main.cpp
+	<iostream>
+	"least_path_create.h"
+
+1395568770 h:\数据结构\数据结构应用\least_tree_create\least_path_create.h
+
+1395564694 source:h:\数据结构应用\图\least_tree_create\main.cpp
+	<iostream>
+	"least_path_create.h"
+
+1397366642 h:\数据结构应用\图\least_tree_create\least_path_create.h
+

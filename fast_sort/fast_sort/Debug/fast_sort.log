@@ -1,0 +1,22 @@
+﻿生成启动时间为 2014/4/13 23:48:05。
+     1>项目“E:\编程文件\fast_sort\fast_sort\fast_sort.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual_stuidio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\fast_sort.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt fast_sort.cpp
+         fast_sort.cpp
+       Link:
+         D:\visual_stuidio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\编程文件\fast_sort\Debug\fast_sort.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\编程文件\fast_sort\Debug\fast_sort.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\编程文件\fast_sort\Debug\fast_sort.lib" /MACHINE:X86 Debug\fast_sort.obj
+         Debug\stdafx.obj
+     1>stdafx.obj : error LNK2005: "public: __thiscall fast_sort::fast_sort(void)" (??0fast_sort@@QAE@XZ) 已经在 fast_sort.obj 中定义
+     1>stdafx.obj : error LNK2005: "public: void __thiscall fast_sort::bubble_sort(void)" (?bubble_sort@fast_sort@@QAEXXZ) 已经在 fast_sort.obj 中定义
+     1>stdafx.obj : error LNK2005: "private: int __thiscall fast_sort::divide(int,int,int)" (?divide@fast_sort@@AAEHHHH@Z) 已经在 fast_sort.obj 中定义
+     1>stdafx.obj : error LNK2005: "private: int __thiscall fast_sort::findpivot(int,int)" (?findpivot@fast_sort@@AAEHHH@Z) 已经在 fast_sort.obj 中定义
+     1>stdafx.obj : error LNK2005: "public: void __thiscall fast_sort::insert_sort(void)" (?insert_sort@fast_sort@@QAEXXZ) 已经在 fast_sort.obj 中定义
+     1>stdafx.obj : error LNK2005: "public: void __thiscall fast_sort::quick_sort(void)" (?quick_sort@fast_sort@@QAEXXZ) 已经在 fast_sort.obj 中定义
+     1>stdafx.obj : error LNK2005: "private: void __thiscall fast_sort::quick_sort_help(int,int)" (?quick_sort_help@fast_sort@@AAEXHH@Z) 已经在 fast_sort.obj 中定义
+     1>stdafx.obj : error LNK2005: "public: void __thiscall fast_sort::select_sort(void)" (?select_sort@fast_sort@@QAEXXZ) 已经在 fast_sort.obj 中定义
+     1>E:\编程文件\fast_sort\Debug\fast_sort.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“E:\编程文件\fast_sort\fast_sort\fast_sort.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.49

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1394951382 source:c:\users\acer\desktop\huffman\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+

@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1396091113 source:e:\学习\大二下\数据结构应用\二叉链表遍历\main.cpp
+	"binary_tree.h"
+	<iostream>
+
+1396095385 e:\学习\大二下\数据结构应用\二叉链表遍历\binary_tree.h
+	<iostream>
+
+1396095725 source:e:\学习\大二下\数据结构应用\树\2-二叉链表遍历\main.cpp
+	"binary_tree.h"
+	<iostream>
+
+1396095791 e:\学习\大二下\数据结构应用\树\2-二叉链表遍历\binary_tree.h
+	<iostream>
+
+1396096078 source:h:\数据结构\数据结构应用\树完成\2.7-二叉链表遍历\main.cpp
+	"binary_tree.h"
+	<iostream>
+
+1396095791 h:\数据结构\数据结构应用\树完成\2.7-二叉链表遍历\binary_tree.h
+	<iostream>
+

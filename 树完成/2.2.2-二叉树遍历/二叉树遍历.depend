@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1396103541 source:e:\学习\大二下\数据结构应用\树\二叉树遍历\main.cpp
+	<iostream>
+	"btree.h"
+
+1396103401 e:\学习\大二下\数据结构应用\树\二叉树遍历\btree.h
+	<iostream>
+
+1396103541 source:e:\学习\大二下\数据结构应用\树\2-二叉树遍历\main.cpp
+	<iostream>
+	"btree.h"
+
+1396103401 e:\学习\大二下\数据结构应用\树\2-二叉树遍历\btree.h
+	<iostream>
+
+1396103541 source:h:\数据结构\数据结构应用\树\2-二叉树遍历\main.cpp
+	<iostream>
+	"btree.h"
+
+1396103401 h:\数据结构\数据结构应用\树\2-二叉树遍历\btree.h
+	<iostream>
+
+1396103541 source:h:\数据结构\数据结构应用\树完成\2.2.2-二叉树遍历\main.cpp
+	<iostream>
+	"btree.h"
+
+1396158989 h:\数据结构\数据结构应用\树完成\2.2.2-二叉树遍历\btree.h
+	<iostream>
+
+1396103541 source:d:\数据结构\数据结构应用\树完成\2.2.2-二叉树遍历\main.cpp
+	<iostream>
+	"btree.h"
+
+1396158642 d:\数据结构\数据结构应用\树完成\2.2.2-二叉树遍历\btree.h
+	<iostream>
+
+1396103542 source:e:\学习\数据结构\数据结构应用\树完成\2.2.2-二叉树遍历\main.cpp
+	<iostream>
+	"btree.h"
+
+1396158990 e:\学习\数据结构\数据结构应用\树完成\2.2.2-二叉树遍历\btree.h
+	<iostream>
+
